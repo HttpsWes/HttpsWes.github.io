@@ -25,3 +25,40 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+#header {
+   text-align: center; 
+   background-color: rgb(255, 255, 255);
+   text-align: center;
+}
+
+
+.round {
+    border-radius:50%;
+}
+
+.center{
+    text-align:center;
+}
+
+.excessive-text{
+    font-weight: bold;
+    font-size: 24%;
+}
+
+#navbar {
+    background-color: white;
+    color: #ef4565;
+     
+}
+
+#navbar > a {
+    color:#ef4565;
+    padding: 8px;
+    display:inline-block;
+    
+}
+
+#navbar > a:hover {
+    background-color:gray;
+}
