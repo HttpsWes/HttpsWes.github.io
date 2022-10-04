@@ -5,16 +5,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Concert+One&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Dosis:wght@200;300;400;500;600;700;800&family=Patrick+Hand&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 body {
     font-family: 'Roboto Condensed', sans-serif;
-    background-color:#d8eefe;
-    color: #5f6c7b;
-    
+    background-color:#f9f4ef;
+    color: #716040;
+    max-width:800px;
+    margin: 0 auto;
 }
+main {
+max-width:800;
+margin:auto
 
+}
 
 h1,h2 {
 
     font-family:'Zilla Slab', monospace;
-    color: #094067;
+    color: #020826;
 }
 
 a {
@@ -47,18 +52,18 @@ a:hover {
 }
 
 #navbar {
-    background-color: white;
-    color: #ef4565;
+    background-color: #8c7851;
+    color: #fffffe;
      
 }
 
 #navbar > a {
-    color:#ef4565;
+    color:#fffffe;
     padding: 8px;
     display:inline-block;
     
 }
 
 #navbar > a:hover {
-    background-color:gray;
+    background-color:#eaddcf;
 }
