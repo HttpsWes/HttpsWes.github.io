@@ -23,8 +23,10 @@ h1,h2 {
 }
 
 a {
-    color: #ef4565;
+    color: #cfc4c4;
     text-decoration: none;
+    
+
 }
 
 a:hover {
@@ -67,3 +69,37 @@ a:hover {
 #navbar > a:hover {
     background-color:#eaddcf;
 }
+
+input[type="text"] {
+        width: 100%;
+        padding: 5px 10px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border-color: #020826;
+        background-color:#eaddcf;
+        border-radius: 8px;
+        
+      
+      
+}
+
+#Response {
+    padding: 100px 50px;
+
+}
+
+input[type=text]:hover {
+    background-color: whitesmoke;
+    border: 3px solid #555;
+  }
+
+  input[type="Submit"] {
+
+    font-family:'Zilla Slab', monospace;
+    color: #020826;
+  }
+
+  input[type="Reset"] {
+    font-family:'Zilla Slab', monospace;
+    color: #020826;
+  }
