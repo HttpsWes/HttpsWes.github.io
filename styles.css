@@ -44,7 +44,7 @@ a:hover {
     border-radius:50%;
 }
 
-.center{
+#image {
     text-align:center;
 }
 
@@ -97,9 +97,16 @@ input[type=text]:hover {
 
     font-family:'Zilla Slab', monospace;
     color: #020826;
+    border-radius: 8px;
+    background-color:#eaddcf;
+    border-color: #020826;
+    
   }
 
   input[type="Reset"] {
     font-family:'Zilla Slab', monospace;
     color: #020826;
+    border-radius: 8px;
+    background-color:#eaddcf;
+    border-color: #020826;
   }
