@@ -110,3 +110,17 @@ input[type=text]:hover {
     background-color:#eaddcf;
     border-color: #020826;
   }
+
+  @media screen and (max-width: 480px){
+    #navbar {
+        text-align:center;
+    }
+    #image {
+        width:100vw;
+        height:auto;
+    }
+
+    
+  }
+
+  
