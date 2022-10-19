@@ -68,6 +68,7 @@ a:hover {
 
 #navbar > a:hover {
     background-color:#eaddcf;
+    position:sticky;
 }
 
 input[type="text"] {
