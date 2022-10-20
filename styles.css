@@ -61,7 +61,8 @@ a:hover {
 
 .excessive-text{
     font-weight: bold;
-    font-size: 200%;
+    font-size: 150%;
+    font-style: italic;
 }
 
 #navbar {
@@ -90,14 +91,24 @@ input[type="text"] {
         border-color: #020826;
         background-color:#eaddcf;
         border-radius: 8px;
-        
-      
       
 }
 
-#Response {
-    padding: 100px 50px;
+#Response :hover {
+    background-color: whitesmoke;
+    border: 3px solid #555;
+  }
 
+
+#Response {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color: #020826;
+    background-color:#eaddcf;
+    border-radius: 15px;
+    border-width:2px;
 }
 
 input[type=text]:hover {
