@@ -23,10 +23,18 @@ h1,h2 {
 }
 
 a {
-    color: #cfc4c4;
+    color: #f25042;
     text-decoration: none;
     
 
+}
+
+#line {
+
+    border-style: solid;
+    border-color: #000000;
+    border-width:thin;
+    border-style:dashed
 }
 
 a:hover {
@@ -35,8 +43,11 @@ a:hover {
 
 #header {
    text-align: center; 
-   background-color: #8c7851;
+   background-color:#eaddcf;
    text-align: center;
+   border-radius: 10px;
+   border-color: #020826;
+   border-style: solid;
 }
 
 
@@ -50,7 +61,7 @@ a:hover {
 
 .excessive-text{
     font-weight: bold;
-    font-size: 24%;
+    font-size: 200%;
 }
 
 #navbar {
