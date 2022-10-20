@@ -16,17 +16,25 @@ margin:auto
 
 }
 
-h1,h2 {
+h1,h2,h3 {
 
     font-family:'Zilla Slab', monospace;
     color: #020826;
 }
 
 a {
-    color: #cfc4c4;
+    color: #f25042;
     text-decoration: none;
     
 
+}
+
+#line {
+
+    border-style: solid;
+    border-color: #000000;
+    border-width:thin;
+    border-style:dashed
 }
 
 a:hover {
@@ -35,13 +43,11 @@ a:hover {
 
 #header {
    text-align: center; 
-   background-color: #a02f2f;
+   background-color:#eaddcf;
    text-align: center;
-   border-color: #020826;
    border-radius: 10px;
-   margin: 8px 0;
-   border-width: 4px 8px;
-
+   border-color: #020826;
+   border-style: solid;
 }
 
 
@@ -55,7 +61,7 @@ a:hover {
 
 .excessive-text{
     font-weight: bold;
-    font-size: 24%;
+    font-size: 200%;
 }
 
 #navbar {
