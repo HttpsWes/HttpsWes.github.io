@@ -7,7 +7,7 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     background-color:#f9f4ef;
     color: #716040;
-    max-width:1600px;
+    max-width:800px;
     margin: 0 auto;
     
 }
@@ -33,6 +33,10 @@ a {
     text-decoration: none;
     
 
+}
+
+#spacing {
+    padding: 8px;
 }
 
 #line {
@@ -81,7 +85,7 @@ a:hover {
 
 #navbar > a {
     color:#fffffe;
-    padding: 8px;
+    padding: 8px 6px;
     display:inline-block;
     
 }
