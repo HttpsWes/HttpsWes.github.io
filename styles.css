@@ -7,12 +7,12 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     background-color:#f9f4ef;
     color: #716040;
-    max-width:800px;
+    max-width:900px;
     margin: 0 auto;
     
 }
 main {
-max-width:800;
+max-width:900;
 margin:auto
 
 
@@ -66,13 +66,9 @@ a:hover {
     border-radius: 10%;
 }
 
-#image {
-   
-    text-align: center;
-    
-}
 
 #image {
+    text-align: center;
     float: center;
     border-radius: 10%;
     border-width: 3px;
@@ -80,7 +76,7 @@ a:hover {
     border-color: #020826;
     border-width:solid;
     padding: 3px;
-   
+
    
 
 }
