@@ -58,15 +58,31 @@ a:hover {
    border-radius: 10px;
    border-color: #020826;
    border-style: solid;
+
 }
 
 
 .round {
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 #image {
-    text-align:center;
+   
+    text-align: center;
+    
+}
+
+#image {
+    float: center;
+    border-radius: 10%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #020826;
+    border-width:solid;
+    padding: 3px;
+   
+   
+
 }
 
 .excessive-text{
@@ -80,16 +96,25 @@ a:hover {
     color: #fffffe;
     position:sticky;
     top:0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
      
 }
 
 #navbar > a {
     color:#fffffe;
     padding: 8px 6px;
-    display:inline-block;
+    display:inline-block;   
     
 }
 
+#navbar {
+    text-align: center;
+
+}
+    
 #navbar > a:hover {
     background-color:#eaddcf;
     position:sticky;
@@ -128,22 +153,35 @@ input[type=text]:hover {
     border: 3px solid #555;
   }
 
+  input[type="Submit"]:hover {
+    background-color: whitesmoke;
+    border: 3px solid #555;
+  }
+
+  input[type="Reset"]:hover {
+    background-color: whitesmoke;
+    border: 3px solid #555;
+  }
+
+
   input[type="Submit"] {
 
     font-family:'Zilla Slab', monospace;
     color: #020826;
-    border-radius: 8px;
+    border-radius: 12px;
     background-color:#eaddcf;
     border-color: #020826;
+    padding: 10px;
     
   }
 
   input[type="Reset"] {
     font-family:'Zilla Slab', monospace;
     color: #020826;
-    border-radius: 8px;
+    border-radius: 12px;
     background-color:#eaddcf;
     border-color: #020826;
+    padding: 10px;
   }
 
   @media screen and (max-width: 480px){
