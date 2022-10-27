@@ -183,10 +183,13 @@ input[type=text]:hover {
   @media screen and (max-width: 480px){
     #navbar {
         text-align:center;
+        max-width: 480px;
     }
     #image {
         width:100vw;
         height:auto;
+        max-width: 70%;
+       
     }
 
     
