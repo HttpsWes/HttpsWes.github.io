@@ -7,6 +7,7 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
     background-color:#f9f4ef;
     color: #716040;
+    margin: 0;
     
 }
 main {
@@ -31,6 +32,10 @@ a {
     text-decoration: none;
     
 
+}
+
+#order {
+    text-align:center;
 }
 
 #spacing {
@@ -98,12 +103,14 @@ a:hover {
 #navbar > a {
     color:#fffffe;
     padding: 8px 6px;
-    display:inline-block;   
+    display:inline-block; 
+      
     
 }
 
 #navbar {
     text-align: center;
+    
 
 }
     
