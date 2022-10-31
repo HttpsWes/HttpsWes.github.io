@@ -64,6 +64,22 @@ a:hover {
 
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #eaddcf;
+    padding: 10px;
+    column-gap: 30px;
+    max-width: 100%;
+  }
+
+  .grid-item {
+   
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+   
+  }
 
 .round {
     border-radius: 10%;
@@ -79,6 +95,19 @@ a:hover {
     border-color: #020826;
     border-width:solid;
     padding: 3px;
+    
+
+   
+
+}
+
+#image2 {
+    text-align: center;
+    float: center;
+    border-radius: 10%;
+    border-width: 3px;
+    padding: 3px;
+    
 
    
 
@@ -195,11 +224,42 @@ input[type=text]:hover {
     #image {
         width:100vw;
         height:auto;
-        max-width: 70%;
+        max-width: 80%;
        
     }
+    .grid-container {
+    max-width: 100%;
+    text-align: center;
+      }
+    
+      .grid-item {
+     max-width: 100%;
+     text-align: center;
+      }
 
     
   }
+ @media screen and (min-width:481px) and (max-width:830px) {
+    #navbar {
+        text-align:center;
+        max-width: 830px;
+    }
+    #image {
+        width:100vw;
+        height:auto;
+        max-width: 100%;
+       
+    }
+    .grid-container {
+    max-width: 100%;
+    text-align: center;
+      }
+    
+      .grid-item {
+     max-width: 100%;
+     text-align: center;
+      }
+
+ }
 
   
