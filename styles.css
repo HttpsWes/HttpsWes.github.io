@@ -95,6 +95,8 @@ a:hover {
     border-color: #020826;
     border-width:solid;
     padding: 3px;
+ 
+    
     
 
    
@@ -224,7 +226,7 @@ input[type=text]:hover {
     #image {
         width:100vw;
         height:auto;
-        max-width: 80%;
+        max-width: 100%;
        
     }
     .grid-container {
@@ -245,9 +247,11 @@ input[type=text]:hover {
         max-width: 830px;
     }
     #image {
-        width:100vw;
+        width:50vw;
         height:auto;
-        max-width: 100%;
+        max-width: 100%;  
+
+        
        
     }
     .grid-container {
